@@ -33,8 +33,16 @@ The data model follows a star schema with two fact tables and shared dimensions.
 
 ##Dimension Tables
 
-dim_customer contains customer attributes such as region, country, city, and segment.
-dim_product contains product and product family information.
+dim_customer contains customer attributes such as 
+  - region
+  - country
+  - city
+  - segment
+    
+dim_product contains
+  - product
+  - product familY
+    
 dim_date is a calendar table used for time intelligence such as YTD and rolling windows.
 
 ##Fact Tables
@@ -61,11 +69,11 @@ The dashboard is built on a clean star schema and responds dynamically to slicer
 
 ##Technology Stack
 
-Python is used for data loading and pipeline orchestration.
-PostgreSQL is used for data storage and SQL-based transformations.
-SQL is used for data modeling and business logic.
-Power BI is used for visualization and reporting.
-Git is used for version control.
+- Python is used for data loading and pipeline orchestration.
+- PostgreSQL is used for data storage and SQL-based transformations.
+- SQL is used for data modeling and business logic.
+- Power BI is used for visualization and reporting.
+- Git is used for version control.
 
 How to Run the Project Locally
 
