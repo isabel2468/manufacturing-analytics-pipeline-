@@ -5,7 +5,7 @@ End-to-end analytics pipeline for a manufacturing use case: raw ingestion → Po
 
 **Tech:** PostgreSQL · SQL · Python · Power BI
 
-Dashboard Overview
+**Dashboard Overview**
 ![Dashboard Overview](dashboard_overview.png)
 
 This project demonstrates an end-to-end analytics pipeline for a global manufacturing company, covering the full workflow from raw data ingestion to business-ready dashboards.
