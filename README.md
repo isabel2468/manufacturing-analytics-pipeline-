@@ -28,6 +28,7 @@ Key design principles are auditability of raw data, reproducible SQL transformat
 **Data Model (Star Schema)**
 
 The data model follows a star schema with two fact tables and shared dimensions. 
+
 ![Data Model](data_model.png)
 
 **Dimension Tables**
