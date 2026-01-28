@@ -18,7 +18,8 @@ Power BI connects to the core schema and uses a star schema for reporting and ti
 Key design principles are auditability of raw data, reproducible SQL transformations, a clean analytical data model, and centralized time handling via a date dimension.
 
 Data Model (Star Schema)
-The data model follows a star schema with two fact tables and shared dimensions. (see powerbi/data_model.png)
+The data model follows a star schema with two fact tables and shared dimensions. 
+![Data Model](data_model.png)
 
 Dimension Tables
 dim_customer contains customer attributes such as region, country, city, and segment.
